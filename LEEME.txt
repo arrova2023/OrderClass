@@ -1,0 +1,46 @@
+# Generador Automático de Horarios Escolares
+
+Este programa es un generador automático de horarios escolares basado en el aprendizaje automático. Utiliza datos de profesores, asignaturas y configuraciones para crear horarios detallados en forma de archivos CSV.
+
+## Requisitos
+
+Antes de ejecutar el programa, asegúrate de tener los siguientes archivos en el mismo directorio:
+
+- `profesores_asignaturas.txt`: Este archivo debe contener la lista de profesores y sus asignaturas, cada línea en el formato `profesor,asignatura`.
+
+- `preCons.txt`: Este archivo debe contener la duración de cada clase en minutos, así como las horas de inicio y fin en formato HH:MM.
+
+## Aprendizaje Automático y Uso de Python 3.10
+
+Este programa utiliza conceptos de aprendizaje automático para generar horarios escolares eficientes. A través de la lectura de datos y el procesamiento automático, el programa crea horarios que se ajustan a los horarios de clases y asignaturas proporcionados.
+
+## Funcionamiento
+
+1. El programa utiliza Python 3.10 para aprovechar las características más recientes del lenguaje.
+
+2. Lee el archivo `profesores_asignaturas.txt` para obtener la información de profesores y asignaturas.
+
+3. Lee la duración de cada clase, hora de inicio y hora de fin desde `preCons.txt`.
+
+4. Crea una carpeta llamada "preExpanded" donde se guardarán los archivos CSV generados.
+
+5. Genera un archivo CSV para cada profesor en el horario. Cada archivo contiene información sobre las horas de inicio y fin, la materia, y secciones para cada día de la semana (lunes, martes, miércoles, jueves y viernes) con valores iniciales de 0.
+
+## Ejecución
+
+1. Asegúrate de tener los archivos requeridos en el mismo directorio.
+
+2. Abre una terminal y navega al directorio donde se encuentra el archivo.
+
+3. Ejecuta el programa utilizando el siguiente comando:
+
+python3.10 nombre_del_programa.py
+
+
+4. Los horarios generados se guardarán en la carpeta "preExpanded".
+
+## Notas
+
+Este programa es una solución sencilla para generar horarios escolares basados en datos proporcionados. Puedes ajustar y expandir este código según tus necesidades y requerimientos específicos. Si deseas explorar enfoques más avanzados, como el uso de redes neuronales, te recomendamos investigar más sobre aprendizaje automático y procesamiento de datos.
+
+**Nota:** Este programa no maneja la resolución de conflictos de horarios, restricciones específicas o consideraciones complejas. Es importante comprender sus limitaciones y personalizarlo según tus requisitos.
