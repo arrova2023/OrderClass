@@ -42,10 +42,3 @@ python3.10 program_name.py
 ## Grades
 
 This school schedule is a simple solution to generate schedules based on the data provided. You can adjust and extend this code according to your specific needs and requirements. If you want to explore more advanced approaches, such as the use of neural networks, we recommend doing more research on machine learning and data processing.
-
-**Note:** This program does not handle the resolution of schedule conflicts, specific restrictions, or complex considerations. It is important to understand its limitations and customize it according to your requirements.# OrderClass
-# OrderClass
-# OrderClass
-# OrderClass
-# OrderClass
-# OrderClass
